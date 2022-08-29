@@ -48,7 +48,7 @@ int main()
 		std::cout << "Cat1 idea: " << cat1.getBrainIdea(0) << std::endl;
 		std::cout << "Cat1 idea address: " << &(cat1.getBrainIdea(0)) << std::endl;
 		std::cout << "Cat2 idea: " << cat2.getBrainIdea(0) << std::endl;
-		std::cout << "cat2 idea address: " << &(cat2.getBrainIdea(0)) << std::endl;
+		std::cout << "Cat2 idea address: " << &(cat2.getBrainIdea(0)) << std::endl;
 	}
 	{
 		std::cout << "\n---------- EX01 Third Test ----------\n" << std::endl;
