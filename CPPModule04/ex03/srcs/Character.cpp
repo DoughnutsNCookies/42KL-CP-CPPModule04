@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:07:53 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/29 12:08:03 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 12:24:24 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ Character::~Character(void)
 {
 	for (int i = 0; i < MAX_INV_SLOT; i++)
 		if (_inventory[i] != NULL)
-			delete _inventory[i];
+			delete (_inventory[i]);
 }
 
 /* Copy Assignation operator function of Character class */

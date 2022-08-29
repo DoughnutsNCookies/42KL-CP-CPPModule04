@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 16:48:19 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/29 11:15:23 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 12:25:21 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,9 @@ int	main(void)
 		me->use(0, *bob);
 		me->use(1, *bob);
 
-		delete bob;
-		delete me;
-		delete src;
+		delete (bob);
+		delete (me);
+		delete (src);
 	}
 	{
 		std::cout << "\n---------- EX01 First Test ----------\n" << std::endl;
@@ -70,9 +70,9 @@ int	main(void)
 			me2->use(i, *me2);
 		}
 		std::cout << std::endl;
-		delete temp2;
-		delete materia;
-		delete me2;
+		delete (temp2);
+		delete (materia);
+		delete (me2);
 	}
 	return (0);
 }
