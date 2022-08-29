@@ -99,8 +99,6 @@ void	Character::use(int idx, ICharacter &target)
 {
 	if (idx < 0 || idx >= MAX_INV_SLOT || this->_inventory[idx] == NULL)
 		return ;
-	// std::cout << this->_inventory[idx] << std::endl;
-	// std::cout << "Name: " << target.getName() << std::endl;
 	this->_inventory[idx]->use(target);
 	return ;
 }
