@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:55:42 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/29 11:00:37 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ AMateria::~AMateria(void)
 
 }
 
-/* Copy Assignation operator function of AMateria class */
+/* Copy assignation operator function of AMateria class */
 AMateria	&AMateria::operator=(const AMateria &src)
 {
 	this->_type = src._type;

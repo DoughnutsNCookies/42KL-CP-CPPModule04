@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 20:04:53 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 20:22:51 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Cure::~Cure()
 	
 }
 
-/* Copy Assignation operator function of Character class */
+/* Copy assignation operator function of Character class */
 Cure	&Cure::operator=(const Cure &src)
 {
 	this->_type = src._type;

@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 13:30:49 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 15:03:50 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ Cat::~Cat()
 	std::cout << "(Cat) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of Cat class */
+/* Copy assignation operator function of Cat class */
 Cat	&Cat::operator=(const Cat &src)
 {
 	this->_type = src._type;

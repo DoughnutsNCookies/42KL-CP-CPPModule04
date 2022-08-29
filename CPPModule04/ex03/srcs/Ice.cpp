@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 20:20:04 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 20:23:28 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Ice::~Ice()
 	
 }
 
-/* Copy Assignation operator function of Character class */
+/* Copy assignation operator function of Character class */
 Ice	&Ice::operator=(const Ice &src)
 {
 	this->_type = src._type;

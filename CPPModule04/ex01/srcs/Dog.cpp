@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 13:34:23 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 15:57:47 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ Dog::~Dog()
 	delete (this->brain);
 }
 
-/* Copy Assignation operator function of Dog class */
+/* Copy assignation operator function of Dog class */
 Dog	&Dog::operator=(const Dog &src)
 {
 	this->_type = src._type;

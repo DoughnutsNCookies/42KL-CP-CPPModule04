@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 13:46:07 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 14:02:29 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ WrongAnimal::~WrongAnimal()
 	std::cout << "(WrongAnimal) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of WrongAnimal class */
+/* Copy assignation operator function of WrongAnimal class */
 WrongAnimal	&WrongAnimal::operator=(const WrongAnimal &src)
 {
 	this->_type = src._type;

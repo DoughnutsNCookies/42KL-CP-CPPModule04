@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:07:53 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/29 12:24:24 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ Character::~Character(void)
 			delete (_inventory[i]);
 }
 
-/* Copy Assignation operator function of Character class */
+/* Copy assignation operator function of Character class */
 Character	&Character::operator=(const Character &src)
 {
 	const AMateria *temp;

@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 13:34:23 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 13:36:24 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ Dog::~Dog()
 	std::cout << "(Dog) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of Dog class */
+/* Copy assignation operator function of Dog class */
 Dog	&Dog::operator=(const Dog &src)
 {
 	this->_type = src._type;

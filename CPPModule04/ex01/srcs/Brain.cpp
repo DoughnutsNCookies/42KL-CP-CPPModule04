@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 14:36:56 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 16:11:22 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ Brain::~Brain()
 	std::cout << "(Brain) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of Brain class */
+/* Copy assignation operator function of Brain class */
 Brain	&Brain::operator=(const Brain &src)
 {
 	for (int i = 0; i < IDEAS; ++i)

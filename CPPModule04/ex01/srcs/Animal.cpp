@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/23 13:59:11 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 14:03:59 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ Animal::~Animal()
 	std::cout << "(Animal) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of Animal class */
+/* Copy assignation operator function of Animal class */
 Animal	&Animal::operator=(const Animal &src)
 {
 	this->_type = src._type;

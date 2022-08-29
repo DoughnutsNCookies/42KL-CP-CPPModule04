@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:54:33 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 20:56:20 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ MateriaSource::~MateriaSource()
 			delete (this->_inventory[i]);
 }
 
-/* Copy Assignation operator function of Character class */
+/* Copy assignation operator function of Character class */
 MateriaSource	&MateriaSource::operator=(const MateriaSource &src)
 {
 	const AMateria	*temp;

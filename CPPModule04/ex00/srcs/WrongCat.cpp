@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 13:47:47 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 13:48:14 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 15:32:58 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ WrongCat::~WrongCat()
 	std::cout << "(WrongCat) Destructor function is called" << std::endl;
 }
 
-/* Copy Assignation operator function of WrongCat class */
+/* Copy assignation operator function of WrongCat class */
 WrongCat	&WrongCat::operator=(const WrongCat &src)
 {
 	this->_type = src._type;
