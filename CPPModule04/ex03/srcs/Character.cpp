@@ -6,7 +6,7 @@
 /*   By: schuah <schuah@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:07:53 by schuah            #+#    #+#             */
-/*   Updated: 2022/08/27 21:25:29 by schuah           ###   ########.fr       */
+/*   Updated: 2022/08/29 11:05:25 by schuah           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,8 @@ void	Character::use(int idx, ICharacter &target)
 {
 	if (idx < 0 || idx >= MAX_INV_SLOT || this->_inventory[idx] == NULL)
 		return ;
+	// std::cout << this->_inventory[idx] << std::endl;
+	// std::cout << "Name: " << target.getName() << std::endl;
 	this->_inventory[idx]->use(target);
+	return ;
 }
