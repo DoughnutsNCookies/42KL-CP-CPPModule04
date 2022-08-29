@@ -63,7 +63,7 @@ int	main(void)
 		temp2 = materia->createMateria("ice");
 		me2->equip(temp2);
 		me2->unequip(2);
-		std::cout << "entering" << std::endl;
+		std::cout << std::endl;
 		for (int i = 0; i < 4; i++)
 		{
 			std::cout << "Slot " << i << ": ";
