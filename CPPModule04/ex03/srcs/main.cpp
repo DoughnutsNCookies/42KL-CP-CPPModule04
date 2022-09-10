@@ -43,26 +43,24 @@ int	main(void)
 	{
 		std::cout << "\n---------- EX01 First Test ----------\n" << std::endl;
 		AMateria		*temp;
-		AMateria		*temp2;
 		IMateriaSource	*materia = new MateriaSource();
 		ICharacter		*me2 = new Character("me2");
 		
 		materia->learnMateria(new Ice());
 		materia->learnMateria(new Cure());
-		temp = materia->createMateria("ice");
-		me2->equip(temp);
+		me2->equip(materia->createMateria("ice"));
 		temp = materia->createMateria("iice");
 		if (temp == NULL)
 			std::cout << "No such materia" << std::endl;
-		for (int i = 0; i < 3; i++)
+		temp = materia->createMateria("cure");
+		me2->equip(temp);
+		for (int i = 0; i < 2; i++)
 		{
-			temp = materia->createMateria("cure");
-			me2->equip(temp);
+			me2->equip(materia->createMateria("cure"));
 			me2->use(i, *me2);
 		}
-		temp2 = materia->createMateria("ice");
-		me2->equip(temp2);
-		me2->unequip(2);
+		me2->equip(materia->createMateria("ice"));
+		me2->unequip(1);
 		std::cout << std::endl;
 		for (int i = 0; i < 4; i++)
 		{
@@ -70,7 +68,7 @@ int	main(void)
 			me2->use(i, *me2);
 		}
 		std::cout << std::endl;
-		delete (temp2);
+		delete (temp);
 		delete (materia);
 		delete (me2);
 	}
